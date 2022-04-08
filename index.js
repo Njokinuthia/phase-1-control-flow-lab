@@ -1,5 +1,4 @@
 
-// TODO:use swittch statements
 
 function scuberGreetingForFeet(distance){
   if(distance <= 400){
@@ -19,26 +18,26 @@ function scuberGreetingForFeet(distance){
   }
 }
 
-console.log(scuberGreetingForFeet(1500))
+console.log(scuberGreetingForFeet(0))
 
 
 // TODO:use ternary operator
-// function ternaryCheckCity(city){
+function ternaryCheckCity(city){
 
-//  if (city === "NYC"){
-//    return "Ok, sounds good."
-//  }
-//  else{
-//    return "No go."
-//  }
-// }
+ if (city === "NYC"){
+   return "Ok, sounds good."
+ }
+ else{
+   return "No go."
+ }
+}
 
-const ternaryCheckCity = city => city === "NYC"?"Ok,sounds good.":"No go."
+// const ternaryCheckCity = (city)=> city === "NYC" ?"Ok,sounds good.":"No go."
 
-console.log(ternaryCheckCity("Nairobi"));
+console.log(ternaryCheckCity("NYC"));
 
 
-// TODO:use if else then
+// TODO:use if else
 let tip;
 
 function switchOnCharmFromTip(tip){
