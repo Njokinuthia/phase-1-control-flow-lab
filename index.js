@@ -23,15 +23,17 @@ console.log(scuberGreetingForFeet(1500))
 
 
 // TODO:use ternary operator
-function ternaryCheckCity(city){
+// function ternaryCheckCity(city){
 
- if (city === "NYC"){
-   return "Ok, sounds good."
- }
- else{
-   return "No go."
- }
-}
+//  if (city === "NYC"){
+//    return "Ok, sounds good."
+//  }
+//  else{
+//    return "No go."
+//  }
+// }
+
+const ternaryCheckCity = city => city === "NYC"?"Ok,sounds good.":"No go."
 
 console.log(ternaryCheckCity("Nairobi"));
 
